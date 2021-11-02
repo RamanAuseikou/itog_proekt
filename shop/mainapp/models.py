@@ -88,7 +88,7 @@ class Notebook(Product):
     display_type = models.CharField(max_length=255, verbose_name='Тип дисплея')
     processor_freq = models.CharField(max_length=255, verbose_name='Частота процессора')
     ram = models.CharField(max_length=255, verbose_name='Оперативная память')
-    vide = models.CharField(max_length=255, verbose_name='Видеокрта')
+    video = models.CharField(max_length=255, verbose_name='Видеокрта')
     timi_without_charge = models.CharField(max_length=255, verbose_name='Время работы аккумулятора')
 
     def __str__(self):
